@@ -1,0 +1,90 @@
+{
+  "students": [
+    {
+      "studentName": "Sheila Eato",
+      "instructorName": "Kieran Cole",
+      "courseName": "August Hines",
+      "userId": "a81b3aac-794d-42e7-b235-f6b8e787e252",
+      "id": "qRan4wV"
+    },
+    {
+      "studentName": "Zoe Walsh",
+      "instructorName": "Walter Mcgee",
+      "courseName": "Portia Becker",
+      "userId": "a81b3aac-794d-42e7-b235-f6b8e787e252",
+      "id": "6dopRqI"
+    },
+    {
+      "studentName": "Brianna Haynes",
+      "instructorName": "Len Farley",
+      "courseName": "Kiayada Pickett",
+      "userId": "a81b3aac-794d-42e7-b235-f6b8e787e252",
+      "id": "j0WMDYH"
+    },
+    {
+      "studentName": "Tarik Ford",
+      "instructorName": "Rhoda Noel",
+      "courseName": "Mohammad Henderson",
+      "userId": "a81b3aac-394d-42e7-b235-f6b8e787e212",
+      "id": "EBW7Zu8"
+    },
+    {
+      "studentName": "Karyn Clark",
+      "instructorName": "Bevis Walsh",
+      "courseName": "Sybil Cruz",
+      "userId": "a81b3aac-394d-42e7-b235-f6b8e787e212",
+      "id": "guR1CRQ"
+    },
+    {
+      "studentName": "Hayfa Hayes",
+      "instructorName": "Kennedy Spears",
+      "courseName": "Nasim Henson",
+      "userId": "a83b3aac-394d-42e7-b235-f6b8e787e252",
+      "id": "6vJLNjD"
+    },
+    {
+      "studentName": "Grant Hart",
+      "instructorName": "Cullen Munoz",
+      "courseName": "Montana Charles",
+      "userId": "a81b3aac-794d-42e7-b235-f6b8e787e252",
+      "id": "sOAYTOv"
+    },
+    {
+      "studentName": "Reece Kramer",
+      "instructorName": "Gil Ingram",
+      "courseName": "Blaze Wheeler",
+      "userId": "a81b3aac-394d-42e7-b235-f6b8e787e212",
+      "id": "kAorupH"
+    }
+  ],
+  "users": [
+    {
+      "userId": "a81b3aac-394d-42e7-b235-f6b8e787e212",
+      "username": "Eric",
+      "email": "eric@gmail.com",
+      "password": "Clapton123*",
+      "id": "M0fZawz"
+    },
+    {
+      "userId": "a83b3aac-394d-42e7-b235-f6b8e787e252",
+      "username": "George",
+      "email": "george@gmail.com",
+      "password": "Harrison123*",
+      "id": "RyBOImi"
+    },
+    {
+      "userId": "a81b3aac-394d-49e7-b235-f6b8e787e252",
+      "username": "Jimmy",
+      "email": "jimmy@gmail.com",
+      "password": "Page123*",
+      "id": "nlVQ2S-"
+    },
+    {
+      "userId": "a81b3aac-794d-42e7-b235-f6b8e787e252",
+      "username": "David",
+      "email": "david@gmail.com",
+      "password": "Gilmour123*",
+      "id": "alsBoW2"
+    }
+  ]
+}

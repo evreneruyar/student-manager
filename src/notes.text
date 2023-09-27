@@ -1,0 +1,6 @@
+  Projede Yapılabilecek Geliştirmeler:
+
+* Overlay alana tıkladığımda delete modalın kapanması
+* Sadece öğrenci adının değil diğer inputlarında search edilebilmesi
+* Filtre aktifken yaptığım eklemenin eğer filtre kapsamına giriyorsa anında görünmesi
+* Filtre aktifken yaptığım silme işleminin filtre kaldırılmadan, anında görünmesi

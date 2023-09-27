@@ -1,0 +1,107 @@
+//Variables
+$primary-color: #c2c2c2;
+$secondary-color: #f0f0f0;
+$dark-color: #484848;
+$light-color: white;
+$danger-color: #fe0000;
+$danger-color-hover: #ce0000;
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  .delete-modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    background-color: $light-color;
+    border-radius: 7px;
+
+    .delete-modal {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+      width: 400px;
+
+      .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+
+        &:hover {
+          background-color: $primary-color;
+        }
+
+        .btn-close {
+          color: $dark-color;
+          cursor: pointer;
+        }
+      }
+
+      .delete-modal-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+
+        h3 {
+          color: $dark-color;
+        }
+      }
+
+      .delete-modal-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .btn-modal {
+          width: 40%;
+          height: 29.5px;
+          margin: auto;
+          font-weight: 800;
+          cursor: pointer;
+          border-radius: 7px;
+          border: none;
+
+          &:focus {
+            text-decoration: none;
+            cursor: pointer;
+          }
+        }
+
+        .btn-modal-cancel {
+          color: $dark-color;
+          background-color: $secondary-color;
+
+          &:hover {
+            background-color: $primary-color;
+          }
+        }
+
+        .btn-modal-delete {
+          color: $secondary-color;
+          background-color: $danger-color;
+
+          &:hover {
+            background-color: $danger-color-hover;
+          }
+        }
+      }
+    }
+  }
+}
